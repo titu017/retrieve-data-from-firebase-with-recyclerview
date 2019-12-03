@@ -8,12 +8,10 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <view class="androidx.appcompat.app.AlertController$RecycleListView"
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/recyclerviewId">
-
-    </view>
+        android:id="@+id/recyclerviewId"/>
 
 
 
