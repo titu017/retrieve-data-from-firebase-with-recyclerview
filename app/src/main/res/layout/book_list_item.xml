@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Title of Book"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:id="@+id/titleTv"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Author Name"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:id="@+id/authorIv"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
